@@ -20,18 +20,19 @@ end
 
 def scrape_list(url)
   noko = noko_for(url)
-  noko.css('#lblcontent strong').each do |party|
-    next if party.text.tidy.empty?
-    members = party.xpath('following-sibling::text() | following-sibling::strong').slice_before { |e| e.name == 'strong' }.first
+  noko.css('#lblcontent strong').each do |area|
+    next if area.text.tidy.empty?
+    members = area.xpath('following-sibling::text() | following-sibling::strong').slice_before { |e| e.name == 'strong' }.first
     members.each do |person|
       next if person.text.tidy.empty?
       data = { 
         name: person.text.tidy.sub(/^\d+\.?\s+/,''),
-        party: party.text.tidy,
+        party: '',
+        area: area.text.tidy,
         term: '2012',
         source: url.to_s,
       }
-      ScraperWiki.save_sqlite([:name, :party, :term], data)
+      ScraperWiki.save_sqlite([:name, :area, :term], data)
     end
   end
 end
