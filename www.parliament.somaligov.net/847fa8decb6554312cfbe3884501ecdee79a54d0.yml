@@ -1,0 +1,37 @@
+---
+request:
+  method: get
+  uri: http://www.parliament.somaligov.net/The%20Members.html
+  body:
+    encoding: US-ASCII
+    string: ''
+  headers:
+    Accept-Encoding:
+    - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+    Accept:
+    - '*/*'
+    User-Agent:
+    - Ruby
+response:
+  status:
+    code: 200
+    message: OK
+  headers:
+    Date:
+    - Mon, 10 Oct 2016 13:48:17 GMT
+    Server:
+    - Apache
+    Last-Modified:
+    - Tue, 04 Aug 2015 03:16:34 GMT
+    Etag:
+    - '"4d3c067-692a-51c73b69b4880"'
+    Accept-Ranges:
+    - bytes
+    Content-Length:
+    - '26922'
+    Content-Type:
+    - text/html; charset=utf-8
+  body:
+    encoding: UTF-8
+  http_version: 
+recorded_at: Mon, 10 Oct 2016 13:48:18 GMT
