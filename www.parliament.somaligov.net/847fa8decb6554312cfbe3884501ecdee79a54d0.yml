@@ -18,13 +18,13 @@ response:
     message: OK
   headers:
     Date:
-    - Sun, 26 Feb 2017 09:31:52 GMT
+    - Tue, 28 Feb 2017 08:44:18 GMT
     Server:
     - Apache
     Last-Modified:
     - Fri, 13 Jan 2017 07:20:19 GMT
     Etag:
-    - '"4d3c067-692a-545f4aa8912c0"'
+    - '"122d6ca-692a-545f4aa8912c0"'
     Accept-Ranges:
     - bytes
     Content-Length:
@@ -34,4 +34,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Sun, 26 Feb 2017 09:31:52 GMT
+recorded_at: Tue, 28 Feb 2017 08:44:19 GMT
