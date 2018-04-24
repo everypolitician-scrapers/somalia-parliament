@@ -18,7 +18,7 @@ response:
     message: OK
   headers:
     Date:
-    - Mon, 23 Apr 2018 14:34:51 GMT
+    - Tue, 24 Apr 2018 13:41:02 GMT
     Server:
     - Apache
     Last-Modified:
@@ -34,4 +34,4 @@ response:
   body:
     encoding: UTF-8
   http_version: 
-recorded_at: Mon, 23 Apr 2018 14:34:51 GMT
+recorded_at: Tue, 24 Apr 2018 13:41:02 GMT
